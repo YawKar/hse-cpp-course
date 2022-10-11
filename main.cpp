@@ -10,6 +10,8 @@
 #include "practices/2/2_3_templated_2_2.h"
 #include "practices/3/3_1_DynArray.h"
 #include "practices/3/3_2_MyStack.h"
+#include "practices/4/4_1_Vec3D.h"
+#include "practices/4/4_2_DynArrayExtended.h"
 
 int main() {
 
