@@ -12,17 +12,24 @@ public:
     DynArrayExtended(); // the same as DynArray(1)
     DynArrayExtended(const DynArrayExtended &other);
 
+    static unsigned int instancesAlive();
+
     ~DynArrayExtended();
 
     void append(double value);
-    unsigned int size();
+    unsigned int size() const;
     double get(int index);
 
     DynArrayExtended& operator=(const DynArrayExtended &other);
+    double& operator[](int index);
+    DynArrayExtended operator+(const DynArrayExtended &other);
+    DynArrayExtended& operator>>(unsigned int shift);
+    DynArrayExtended& operator<<(unsigned int shift);
 private:
     double* array;
     unsigned int realSize;
     unsigned int capacity;
+    static unsigned int _instancesAlive;
 };
 
 
