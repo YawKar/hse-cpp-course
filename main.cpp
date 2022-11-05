@@ -12,6 +12,9 @@
 #include "practices/3/3_2_MyStack.h"
 #include "practices/4/4_1_Vec3D.h"
 #include "practices/4/4_2_DynArrayExtended.h"
+#include "practices/6/6_1_TemplatedDynArrayPrimitive.h"
+#include "practices/6/6_2_TemplatedDynArrayVector.h"
+#include "practices/6/6_3_TemplatedDynQueue.h"
 
 int main() {
 
